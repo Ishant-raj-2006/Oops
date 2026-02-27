@@ -1,8 +1,10 @@
+// WAP for find the length of any string
+
 
 import java.util.Scanner;
 import java.util.stream.Stream;
 
-// WAP for find the length of any string
+
 public class Q10 {
     public static void main(String[] args) {
         Scanner sb = new Scanner(System.in);
