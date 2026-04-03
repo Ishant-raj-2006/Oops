@@ -1,9 +1,9 @@
-// using try cath 
+// Using finally Block
 
 
 import java.util.Scanner;
 
-public class Q3 {
+public class Q5 {
     public static void main(String[] args) {
         int[] arr = {21,5,67,9,90,45,23};
         int idx, a, ans = 0;
@@ -18,8 +18,14 @@ public class Q3 {
             ans = arr[idx] / a;
             System.out.println("Ans = " + ans);
 
-        } catch(Exception e) {
+        } catch(ArrayIndexOutOfBoundsException e) {
             System.out.println("Exception occurred: " + e);
+        }
+         catch(ArithmeticException e) {
+            System.out.println("Exception occurred: " + e);
+        }
+        finally{
+            System.out.println("Finally Block");
         }
 
         System.out.println("Ans " + ans);

@@ -1,3 +1,5 @@
+// using only catch 
+
 import java.util.Scanner;
 
 public class Q2 {

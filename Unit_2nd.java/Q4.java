@@ -1,3 +1,5 @@
+// Using muntipal cath 
+
 import java.util.Scanner;
 
 public class Q4 {
