@@ -18,5 +18,16 @@ public class Q8 {
                 System.out.println("Error creating file: " + e.getMessage());
             }
         }
+        System.out.println("File name:"+ file.getName());
+        System.out.println("path:"+ file.getPath());
+        System.out.println("Absolute path: "+file.getAbsolutePath());
+        System.out.println("File is a directory? "+ file.isFile());
+        System.out.println("Fileis a file?"+ file.length() +"bytes");
+        if(file.delete()){
+            System.out.println("File deleted Successfully.");
+        }
+        else{
+            System.out.println("Failed to delete file.");
+        }
     }
 }
