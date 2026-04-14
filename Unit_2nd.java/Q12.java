@@ -39,4 +39,3 @@ s2.cgpa = sc.nextFloat();
  System.out.println(s2.name+" "+s2.cgpa+" "+s2.rno);
 }
 }
-
