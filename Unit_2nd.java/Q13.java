@@ -9,7 +9,7 @@ public class Q13 {
         String type;
         int torqe;
         void print(){
-            System.out.println(seats+" Siter"+name+" "+type+" "+torqe+"NM");
+            System.out.println(seats+" Siter "+name+" "+type+" "+torqe+"NM");
         }
     }
     public static void main(String[] args) {
