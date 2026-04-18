@@ -3,11 +3,9 @@ interface MyInterface{
      void abrst();
       static void myMethod(){
           System.out.println("Hello Ishant");
+      };
+      default void felo(){
+          System.out.println("This is default ");
       }
 }
-// public class Q1{
-//     public static void main(String[] args){
-//         MyInterface ref = () -> System.out.println("Hello");
-//         ref.myMethod();
-//     }
-// }   
+
