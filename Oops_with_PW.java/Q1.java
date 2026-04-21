@@ -5,6 +5,9 @@ public class Q1 {
         String name;
         int Roll;
         double sgpa;
+        void print(){
+            System.out.println(name+" "+Roll+" "+sgpa+" ");
+        }
     }
     public static void main(String[] args) {
         Student s1 = new Student(); // Decleration
@@ -21,6 +24,9 @@ public class Q1 {
         s3.Roll = 100033;
         s3.sgpa = 6.67;
 
-    System.out.println(s1.name +" "+s1.Roll+" "+s1.sgpa);
-    }
+    // System.out.println(s1.name +" "+s1.Roll+" "+s1.sgpa);
+        s1.print();
+        s2.print();
+        s3.print();
+}
 }
