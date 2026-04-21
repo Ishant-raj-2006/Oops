@@ -4,7 +4,9 @@ public class Q2 {
             String name;
             double length;
             String type;
-
+            void print() {
+                System.out.println(seats+" "+name+" "+length+" "+type+" ");
+            }
         }
     public static void main(String[] args) {
         Car c = new Car();
@@ -12,6 +14,7 @@ public class Q2 {
         c.name ="Tata punch";
         c.length = 5.5;
         c.type = "SUV"; 
+        c.print();
         change(c);
         System.out.println(c.seats);
     }
