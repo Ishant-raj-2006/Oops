@@ -33,3 +33,5 @@ public class Q4 {
         System.out.println(s1.getroll());
     }
 }
+
+// 1:18
